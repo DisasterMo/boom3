@@ -1052,6 +1052,7 @@ void retro_get_system_av_info(struct retro_system_av_info *info)
 
 void retro_set_environment(retro_environment_t cb)
 {
+   static bool libretro_supports_option_categories = false;
    static const struct retro_controller_description port_1[] = {
       { "Gamepad Classic", RETRO_DEVICE_JOYPAD },
       { "Gamepad Classic Alt", RETRO_DEVICE_JOYPAD_ALT },
@@ -1066,7 +1067,8 @@ void retro_set_environment(retro_environment_t cb)
 
    environ_cb = cb;
 
-   libretro_set_core_options(environ_cb);
+   libretro_set_core_options(environ_cb,
+         &libretro_supports_option_categories);
    cb(RETRO_ENVIRONMENT_SET_CONTROLLER_INFO, (void*)ports);
 }
 

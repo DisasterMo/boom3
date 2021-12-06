@@ -40,7 +40,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
       "doom_framerate",
       "Frame rate (Restart Required)",
       NULL,
-      "Modify frame rate. Requires a restart.",
+      "Modify the frame rate. Requires a restart.",
       NULL,
       NULL,
       {
@@ -71,7 +71,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
       "doom_resolution",
       "Internal resolution (Restart Required)",
       NULL,
-      "Configure the resolution. Requires a restart.",
+      "Choose the resolution. Requires a restart.",
       NULL,
       NULL,
       {
@@ -105,7 +105,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
       "doom_fps",
       "Show FPS",
       NULL,
-      "Shows frame rate on screen.",
+      "Show frame rate on screen.",
       NULL,
       NULL,
       {

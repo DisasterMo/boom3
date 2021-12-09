@@ -40,7 +40,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
       "doom_framerate",
       "Frame rate (Restart Required)",
       NULL,
-      "Modify the frame rate. Requires a restart.",
+      "Choose the desired frame rate.",
       NULL,
       NULL,
       {
@@ -71,14 +71,14 @@ struct retro_core_option_v2_definition option_defs_us[] = {
       "doom_resolution",
       "Internal resolution (Restart Required)",
       NULL,
-      "Choose the resolution. Requires a restart.",
+      "Choose the resolution to render at.",
       NULL,
       NULL,
       {
          { "480x272",   NULL },
          { "640x368",   NULL },
          { "720x408",   NULL },
-         { "960x544",   NULL },
+         { "960x544",   "960x544 (Default)" },
 		 { "1280x720",   NULL },
 		 { "1920x1080",   NULL },
 		 { "2560x1440",   NULL },
@@ -95,8 +95,8 @@ struct retro_core_option_v2_definition option_defs_us[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"

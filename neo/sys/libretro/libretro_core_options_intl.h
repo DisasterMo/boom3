@@ -41,7 +41,7 @@ extern "C" {
 
 #define DOOM_FRAMERATE_LABEL_AR NULL
 #define DOOM_FRAMERATE_INFO_0_AR NULL
-#define OPTION_VAL_AUTO_AR NULL
+#define OPTION_VAL_AUTO_AR "تلقائي"
 #define OPTION_VAL_50_AR NULL
 #define OPTION_VAL_60_AR NULL
 #define OPTION_VAL_72_AR NULL
@@ -60,7 +60,7 @@ extern "C" {
 #define OPTION_VAL_244_AR NULL
 #define OPTION_VAL_300_AR NULL
 #define OPTION_VAL_360_AR NULL
-#define DOOM_RESOLUTION_LABEL_AR NULL
+#define DOOM_RESOLUTION_LABEL_AR "الدقة الداخلية (إعادة التشغيل مطلوبة)"
 #define DOOM_RESOLUTION_INFO_0_AR NULL
 #define OPTION_VAL_480X272_AR NULL
 #define OPTION_VAL_640X368_AR NULL
@@ -425,7 +425,7 @@ struct retro_core_options_v2 options_ca = {
 
 #define DOOM_FRAMERATE_LABEL_CHS NULL
 #define DOOM_FRAMERATE_INFO_0_CHS NULL
-#define OPTION_VAL_AUTO_CHS NULL
+#define OPTION_VAL_AUTO_CHS "自动"
 #define OPTION_VAL_50_CHS NULL
 #define OPTION_VAL_60_CHS NULL
 #define OPTION_VAL_72_CHS NULL
@@ -444,7 +444,7 @@ struct retro_core_options_v2 options_ca = {
 #define OPTION_VAL_244_CHS NULL
 #define OPTION_VAL_300_CHS NULL
 #define OPTION_VAL_360_CHS NULL
-#define DOOM_RESOLUTION_LABEL_CHS NULL
+#define DOOM_RESOLUTION_LABEL_CHS "内部分辨率(需要重启)"
 #define DOOM_RESOLUTION_INFO_0_CHS NULL
 #define OPTION_VAL_480X272_CHS NULL
 #define OPTION_VAL_640X368_CHS NULL
@@ -456,7 +456,7 @@ struct retro_core_options_v2 options_ca = {
 #define OPTION_VAL_3840X2160_CHS NULL
 #define DOOM_INVERT_Y_AXIS_LABEL_CHS NULL
 #define DOOM_INVERT_Y_AXIS_INFO_0_CHS NULL
-#define DOOM_FPS_LABEL_CHS NULL
+#define DOOM_FPS_LABEL_CHS "显示 FPS"
 #define DOOM_FPS_INFO_0_CHS NULL
 
 struct retro_core_option_v2_category option_cats_chs[] = {
@@ -553,7 +553,7 @@ struct retro_core_options_v2 options_chs = {
 
 #define DOOM_FRAMERATE_LABEL_CHT NULL
 #define DOOM_FRAMERATE_INFO_0_CHT NULL
-#define OPTION_VAL_AUTO_CHT NULL
+#define OPTION_VAL_AUTO_CHT "自動"
 #define OPTION_VAL_50_CHT NULL
 #define OPTION_VAL_60_CHT NULL
 #define OPTION_VAL_72_CHT NULL
@@ -1063,27 +1063,27 @@ struct retro_core_options_v2 options_da = {
 
 /* RETRO_LANGUAGE_DE */
 
-#define DOOM_FRAMERATE_LABEL_DE "Bildrate (Neustart erforderlich)"
+#define DOOM_FRAMERATE_LABEL_DE "Bildfrequenz (Neustart erforderlich)"
 #define DOOM_FRAMERATE_INFO_0_DE NULL
 #define OPTION_VAL_AUTO_DE "Automatisch"
-#define OPTION_VAL_50_DE "50 BpS"
-#define OPTION_VAL_60_DE "60 BpS"
-#define OPTION_VAL_72_DE "72 BpS"
-#define OPTION_VAL_75_DE "75 BpS"
-#define OPTION_VAL_90_DE "90 BpS"
-#define OPTION_VAL_100_DE "100 BpS"
-#define OPTION_VAL_119_DE "119 BpS"
-#define OPTION_VAL_120_DE "120 BpS"
-#define OPTION_VAL_144_DE "144 BpS"
-#define OPTION_VAL_155_DE "155 BpS"
-#define OPTION_VAL_160_DE "160 BpS"
-#define OPTION_VAL_165_DE "165 BpS"
-#define OPTION_VAL_180_DE "180 BpS"
-#define OPTION_VAL_200_DE "200 BpS"
-#define OPTION_VAL_240_DE "240 BpS"
-#define OPTION_VAL_244_DE "244 BpS"
-#define OPTION_VAL_300_DE "300 BpS"
-#define OPTION_VAL_360_DE "360 BpS"
+#define OPTION_VAL_50_DE "50 fps"
+#define OPTION_VAL_60_DE "60 fps"
+#define OPTION_VAL_72_DE "72 fps"
+#define OPTION_VAL_75_DE "75 fps"
+#define OPTION_VAL_90_DE "90 fps"
+#define OPTION_VAL_100_DE "100 fps"
+#define OPTION_VAL_119_DE "119 fps"
+#define OPTION_VAL_120_DE "120 fps"
+#define OPTION_VAL_144_DE "144 fps"
+#define OPTION_VAL_155_DE "155 fps"
+#define OPTION_VAL_160_DE "160 fps"
+#define OPTION_VAL_165_DE "165 fps"
+#define OPTION_VAL_180_DE "180 fps"
+#define OPTION_VAL_200_DE "200 fps"
+#define OPTION_VAL_240_DE "240 fps"
+#define OPTION_VAL_244_DE "244 fps"
+#define OPTION_VAL_300_DE "300 fps"
+#define OPTION_VAL_360_DE "360 fps"
 #define DOOM_RESOLUTION_LABEL_DE "Interne Auflösung (Neustart erforderlich)"
 #define DOOM_RESOLUTION_INFO_0_DE NULL
 #define OPTION_VAL_480X272_DE "480 x 272"
@@ -1095,8 +1095,8 @@ struct retro_core_options_v2 options_da = {
 #define OPTION_VAL_2560X1440_DE "2560 x 1440"
 #define OPTION_VAL_3840X2160_DE "3840 x 2160"
 #define DOOM_INVERT_Y_AXIS_LABEL_DE "Y-Achse invertieren"
-#define DOOM_INVERT_Y_AXIS_INFO_0_DE NULL
-#define DOOM_FPS_LABEL_DE "BpS anzeigen"
+#define DOOM_INVERT_Y_AXIS_INFO_0_DE "Die Y-Achse des rechten analogen Sticks invertieren."
+#define DOOM_FPS_LABEL_DE "FPS anzeigen"
 #define DOOM_FPS_INFO_0_DE NULL
 
 struct retro_core_option_v2_category option_cats_de[] = {
@@ -1481,7 +1481,7 @@ struct retro_core_options_v2 options_eo = {
 #define DOOM_INVERT_Y_AXIS_LABEL_ES "Invertir el eje Y"
 #define DOOM_INVERT_Y_AXIS_INFO_0_ES "Invierte el eje Y del stick analógico derecho."
 #define DOOM_FPS_LABEL_ES "Mostrar FPS"
-#define DOOM_FPS_INFO_0_ES "Muestra la velocidad de fotogramas en pantalla."
+#define DOOM_FPS_INFO_0_ES "Muestra un contador de velocidad de fotogramas en pantalla."
 
 struct retro_core_option_v2_category option_cats_es[] = {
    { NULL, NULL, NULL },
@@ -1704,8 +1704,8 @@ struct retro_core_options_v2 options_fa = {
 /* RETRO_LANGUAGE_FI */
 
 #define DOOM_FRAMERATE_LABEL_FI "Kuvataajuus (Uudelleenkäynnistys vaaditaan)"
-#define DOOM_FRAMERATE_INFO_0_FI "Muokkaa kuvataajuutta. Uudelleenkäynnistys vaaditaan."
-#define OPTION_VAL_AUTO_FI "Autom."
+#define DOOM_FRAMERATE_INFO_0_FI NULL
+#define OPTION_VAL_AUTO_FI "Automaattinen"
 #define OPTION_VAL_50_FI "50 fps"
 #define OPTION_VAL_60_FI "60 fps"
 #define OPTION_VAL_72_FI "72 fps"
@@ -1725,7 +1725,7 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_300_FI "300 fps"
 #define OPTION_VAL_360_FI "360 fps"
 #define DOOM_RESOLUTION_LABEL_FI "Sisäinen resoluutio (Uudelleenkäynnistys vaaditaan)"
-#define DOOM_RESOLUTION_INFO_0_FI "Määritä resoluutio. Uudelleenkäynnistys vaaditaan."
+#define DOOM_RESOLUTION_INFO_0_FI NULL
 #define OPTION_VAL_480X272_FI "480 x 272"
 #define OPTION_VAL_640X368_FI "640 x 368"
 #define OPTION_VAL_720X408_FI "720 x 408"
@@ -1737,7 +1737,7 @@ struct retro_core_options_v2 options_fa = {
 #define DOOM_INVERT_Y_AXIS_LABEL_FI "Käännä Y-akseli"
 #define DOOM_INVERT_Y_AXIS_INFO_0_FI "Käännä oikean analogisen sauvan Y-akseli."
 #define DOOM_FPS_LABEL_FI "Näytä kuvataajuus"
-#define DOOM_FPS_INFO_0_FI "Näyttää kuvataajuuden näytöllä."
+#define DOOM_FPS_INFO_0_FI NULL
 
 struct retro_core_option_v2_category option_cats_fi[] = {
    { NULL, NULL, NULL },
@@ -1832,7 +1832,7 @@ struct retro_core_options_v2 options_fi = {
 /* RETRO_LANGUAGE_FR */
 
 #define DOOM_FRAMERATE_LABEL_FR "Fréquence d'images (Redémarrage requis)"
-#define DOOM_FRAMERATE_INFO_0_FR "Modifie la fréquence d'images. Nécessite un redémarrage."
+#define DOOM_FRAMERATE_INFO_0_FR "Modifier la fréquence d'images. Nécessite un redémarrage."
 #define OPTION_VAL_AUTO_FR NULL
 #define OPTION_VAL_50_FR "50i/s"
 #define OPTION_VAL_60_FR "60i/s"
@@ -1853,7 +1853,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_300_FR "300i/s"
 #define OPTION_VAL_360_FR "360i/s"
 #define DOOM_RESOLUTION_LABEL_FR "Résolution interne (Redémarrage requis)"
-#define DOOM_RESOLUTION_INFO_0_FR "Configurer la résolution. Nécessite un redémarrage."
+#define DOOM_RESOLUTION_INFO_0_FR "Sélectionner la résolution. Nécessite un redémarrage."
 #define OPTION_VAL_480X272_FR NULL
 #define OPTION_VAL_640X368_FR NULL
 #define OPTION_VAL_720X408_FR NULL
@@ -1865,7 +1865,7 @@ struct retro_core_options_v2 options_fi = {
 #define DOOM_INVERT_Y_AXIS_LABEL_FR "Inverser l'axe Y"
 #define DOOM_INVERT_Y_AXIS_INFO_0_FR "Inverser l'axe Y du stick analogique droit."
 #define DOOM_FPS_LABEL_FR "Afficher les images/s"
-#define DOOM_FPS_INFO_0_FR "Affiche la fréquence d'images à l'écran."
+#define DOOM_FPS_INFO_0_FR "Afficher la fréquence d'images à l'écran."
 
 struct retro_core_option_v2_category option_cats_fr[] = {
    { NULL, NULL, NULL },
@@ -2472,7 +2472,7 @@ struct retro_core_options_v2 options_id = {
 /* RETRO_LANGUAGE_IT */
 
 #define DOOM_FRAMERATE_LABEL_IT "Framerate (riavvio)"
-#define DOOM_FRAMERATE_INFO_0_IT "Modifica il framerate. Richiede un riavvio."
+#define DOOM_FRAMERATE_INFO_0_IT "Modifica il frame rate. Richiede un riavvio."
 #define OPTION_VAL_AUTO_IT NULL
 #define OPTION_VAL_50_IT NULL
 #define OPTION_VAL_60_IT NULL
@@ -2493,7 +2493,7 @@ struct retro_core_options_v2 options_id = {
 #define OPTION_VAL_300_IT NULL
 #define OPTION_VAL_360_IT NULL
 #define DOOM_RESOLUTION_LABEL_IT "Risoluzione interna (riavvio)"
-#define DOOM_RESOLUTION_INFO_0_IT "Configura la risoluzione. Richiede un riavvio."
+#define DOOM_RESOLUTION_INFO_0_IT "Scegliere la risoluzione. Richiede un riavvio."
 #define OPTION_VAL_480X272_IT NULL
 #define OPTION_VAL_640X368_IT NULL
 #define OPTION_VAL_720X408_IT NULL
@@ -2505,7 +2505,7 @@ struct retro_core_options_v2 options_id = {
 #define DOOM_INVERT_Y_AXIS_LABEL_IT "Inverti Asse Y"
 #define DOOM_INVERT_Y_AXIS_INFO_0_IT "Inverte l'asse Y dell'analogico destro."
 #define DOOM_FPS_LABEL_IT "Mostra FPS"
-#define DOOM_FPS_INFO_0_IT "Mostra il framerate su schermo."
+#define DOOM_FPS_INFO_0_IT "Mostra frame rate sullo schermo."
 
 struct retro_core_option_v2_category option_cats_it[] = {
    { NULL, NULL, NULL },
@@ -2601,7 +2601,7 @@ struct retro_core_options_v2 options_it = {
 
 #define DOOM_FRAMERATE_LABEL_JA NULL
 #define DOOM_FRAMERATE_INFO_0_JA NULL
-#define OPTION_VAL_AUTO_JA NULL
+#define OPTION_VAL_AUTO_JA "自動"
 #define OPTION_VAL_50_JA NULL
 #define OPTION_VAL_60_JA NULL
 #define OPTION_VAL_72_JA NULL
@@ -2749,7 +2749,7 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_300_KO NULL
 #define OPTION_VAL_360_KO NULL
 #define DOOM_RESOLUTION_LABEL_KO "내부 해상도 (재시작 필요)"
-#define DOOM_RESOLUTION_INFO_0_KO "해상도를 설정합니다. 재시작이 필요합니다."
+#define DOOM_RESOLUTION_INFO_0_KO "해상도를 선택합니다. 재시작이 필요합니다."
 #define OPTION_VAL_480X272_KO NULL
 #define OPTION_VAL_640X368_KO NULL
 #define OPTION_VAL_720X408_KO NULL
@@ -2985,7 +2985,7 @@ struct retro_core_options_v2 options_mt = {
 
 #define DOOM_FRAMERATE_LABEL_NL NULL
 #define DOOM_FRAMERATE_INFO_0_NL NULL
-#define OPTION_VAL_AUTO_NL NULL
+#define OPTION_VAL_AUTO_NL "Automatisch"
 #define OPTION_VAL_50_NL NULL
 #define OPTION_VAL_60_NL NULL
 #define OPTION_VAL_72_NL NULL
@@ -3261,7 +3261,7 @@ struct retro_core_options_v2 options_oc = {
 #define OPTION_VAL_300_PL NULL
 #define OPTION_VAL_360_PL NULL
 #define DOOM_RESOLUTION_LABEL_PL NULL
-#define DOOM_RESOLUTION_INFO_0_PL NULL
+#define DOOM_RESOLUTION_INFO_0_PL "Wybierz rozdzielczość. Wymaga ponownego uruchomienia."
 #define OPTION_VAL_480X272_PL NULL
 #define OPTION_VAL_640X368_PL NULL
 #define OPTION_VAL_720X408_PL NULL
@@ -3368,8 +3368,8 @@ struct retro_core_options_v2 options_pl = {
 /* RETRO_LANGUAGE_PT_BR */
 
 #define DOOM_FRAMERATE_LABEL_PT_BR NULL
-#define DOOM_FRAMERATE_INFO_0_PT_BR NULL
-#define OPTION_VAL_AUTO_PT_BR NULL
+#define DOOM_FRAMERATE_INFO_0_PT_BR "Altera a taxa de quadros. (requer reinício)"
+#define OPTION_VAL_AUTO_PT_BR "Automática"
 #define OPTION_VAL_50_PT_BR NULL
 #define OPTION_VAL_60_PT_BR NULL
 #define OPTION_VAL_72_PT_BR NULL
@@ -3388,8 +3388,8 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_244_PT_BR NULL
 #define OPTION_VAL_300_PT_BR NULL
 #define OPTION_VAL_360_PT_BR NULL
-#define DOOM_RESOLUTION_LABEL_PT_BR NULL
-#define DOOM_RESOLUTION_INFO_0_PT_BR NULL
+#define DOOM_RESOLUTION_LABEL_PT_BR "Resolução interna (requer reinício)"
+#define DOOM_RESOLUTION_INFO_0_PT_BR "Escolha a resolução. (requer reinício)"
 #define OPTION_VAL_480X272_PT_BR NULL
 #define OPTION_VAL_640X368_PT_BR NULL
 #define OPTION_VAL_720X408_PT_BR NULL
@@ -3401,7 +3401,7 @@ struct retro_core_options_v2 options_pl = {
 #define DOOM_INVERT_Y_AXIS_LABEL_PT_BR NULL
 #define DOOM_INVERT_Y_AXIS_INFO_0_PT_BR NULL
 #define DOOM_FPS_LABEL_PT_BR NULL
-#define DOOM_FPS_INFO_0_PT_BR NULL
+#define DOOM_FPS_INFO_0_PT_BR "Mostra a taxa de quadros na tela."
 
 struct retro_core_option_v2_category option_cats_pt_br[] = {
    { NULL, NULL, NULL },
@@ -3752,7 +3752,7 @@ struct retro_core_options_v2 options_ro = {
 /* RETRO_LANGUAGE_RU */
 
 #define DOOM_FRAMERATE_LABEL_RU "Частота кадров (требуется перезапуск)"
-#define DOOM_FRAMERATE_INFO_0_RU "Настройка частоты кадров. Требуется перезапуск ядра."
+#define DOOM_FRAMERATE_INFO_0_RU "Настройка частоты кадров. Требуется перезапуск."
 #define OPTION_VAL_AUTO_RU "Авто"
 #define OPTION_VAL_50_RU "50 кадр/c"
 #define OPTION_VAL_60_RU "60 кадр/c"
@@ -3773,7 +3773,7 @@ struct retro_core_options_v2 options_ro = {
 #define OPTION_VAL_300_RU "300 кадр/c"
 #define OPTION_VAL_360_RU "360 кадр/c"
 #define DOOM_RESOLUTION_LABEL_RU "Внутреннее разрешение (требуется перезапуск)"
-#define DOOM_RESOLUTION_INFO_0_RU "Настройка разрешения. Требуется перезапуск ядра."
+#define DOOM_RESOLUTION_INFO_0_RU "Выбор разрешения. Требуется перезапуск."
 #define OPTION_VAL_480X272_RU NULL
 #define OPTION_VAL_640X368_RU NULL
 #define OPTION_VAL_720X408_RU NULL
@@ -4265,7 +4265,7 @@ struct retro_core_options_v2 options_sr = {
 
 #define DOOM_FRAMERATE_LABEL_SV NULL
 #define DOOM_FRAMERATE_INFO_0_SV NULL
-#define OPTION_VAL_AUTO_SV NULL
+#define OPTION_VAL_AUTO_SV "Automatiskt"
 #define OPTION_VAL_50_SV NULL
 #define OPTION_VAL_60_SV NULL
 #define OPTION_VAL_72_SV NULL
@@ -4392,7 +4392,7 @@ struct retro_core_options_v2 options_sv = {
 /* RETRO_LANGUAGE_TR */
 
 #define DOOM_FRAMERATE_LABEL_TR "Kare hızı (Yeniden Başlatılmalı)"
-#define DOOM_FRAMERATE_INFO_0_TR "Kare hızını değiştirin. Yeniden başlatma gerektirir."
+#define DOOM_FRAMERATE_INFO_0_TR NULL
 #define OPTION_VAL_AUTO_TR "Otomatik"
 #define OPTION_VAL_50_TR NULL
 #define OPTION_VAL_60_TR NULL
@@ -4413,7 +4413,7 @@ struct retro_core_options_v2 options_sv = {
 #define OPTION_VAL_300_TR NULL
 #define OPTION_VAL_360_TR NULL
 #define DOOM_RESOLUTION_LABEL_TR "Dahili çözünürlük (Yeniden Başlatılmalı)"
-#define DOOM_RESOLUTION_INFO_0_TR "Çözünürlüğü yapılandırın. Yeniden başlatma gerektirir."
+#define DOOM_RESOLUTION_INFO_0_TR NULL
 #define OPTION_VAL_480X272_TR NULL
 #define OPTION_VAL_640X368_TR NULL
 #define OPTION_VAL_720X408_TR NULL
@@ -4425,7 +4425,7 @@ struct retro_core_options_v2 options_sv = {
 #define DOOM_INVERT_Y_AXIS_LABEL_TR "Y Eksenini Tersine Çevir"
 #define DOOM_INVERT_Y_AXIS_INFO_0_TR "Sağ analog çubuğun Y eksenini ters çevirin."
 #define DOOM_FPS_LABEL_TR "FPS Göster"
-#define DOOM_FPS_INFO_0_TR "Ekranda kare hızını gösterir."
+#define DOOM_FPS_INFO_0_TR NULL
 
 struct retro_core_option_v2_category option_cats_tr[] = {
    { NULL, NULL, NULL },
@@ -4521,7 +4521,7 @@ struct retro_core_options_v2 options_tr = {
 
 #define DOOM_FRAMERATE_LABEL_UK NULL
 #define DOOM_FRAMERATE_INFO_0_UK NULL
-#define OPTION_VAL_AUTO_UK NULL
+#define OPTION_VAL_AUTO_UK "Авто"
 #define OPTION_VAL_50_UK NULL
 #define OPTION_VAL_60_UK NULL
 #define OPTION_VAL_72_UK NULL
@@ -4649,7 +4649,7 @@ struct retro_core_options_v2 options_uk = {
 
 #define DOOM_FRAMERATE_LABEL_VN NULL
 #define DOOM_FRAMERATE_INFO_0_VN NULL
-#define OPTION_VAL_AUTO_VN NULL
+#define OPTION_VAL_AUTO_VN "Tự động"
 #define OPTION_VAL_50_VN NULL
 #define OPTION_VAL_60_VN NULL
 #define OPTION_VAL_72_VN NULL

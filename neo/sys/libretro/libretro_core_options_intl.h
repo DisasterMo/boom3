@@ -3367,7 +3367,7 @@ struct retro_core_options_v2 options_pl = {
 
 /* RETRO_LANGUAGE_PT_BR */
 
-#define DOOM_FRAMERATE_LABEL_PT_BR NULL
+#define DOOM_FRAMERATE_LABEL_PT_BR "Tipo de quadros (requer reinício)"
 #define DOOM_FRAMERATE_INFO_0_PT_BR "Altera a taxa de quadros. (requer reinício)"
 #define OPTION_VAL_AUTO_PT_BR "Automática"
 #define OPTION_VAL_50_PT_BR NULL
@@ -3398,9 +3398,9 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_1920X1080_PT_BR NULL
 #define OPTION_VAL_2560X1440_PT_BR NULL
 #define OPTION_VAL_3840X2160_PT_BR NULL
-#define DOOM_INVERT_Y_AXIS_LABEL_PT_BR NULL
-#define DOOM_INVERT_Y_AXIS_INFO_0_PT_BR NULL
-#define DOOM_FPS_LABEL_PT_BR NULL
+#define DOOM_INVERT_Y_AXIS_LABEL_PT_BR "Inverter eixo Y"
+#define DOOM_INVERT_Y_AXIS_INFO_0_PT_BR "Inverter o eixo Y do direcional analógico direito."
+#define DOOM_FPS_LABEL_PT_BR "Mostrar FPS"
 #define DOOM_FPS_INFO_0_PT_BR "Mostra a taxa de quadros na tela."
 
 struct retro_core_option_v2_category option_cats_pt_br[] = {

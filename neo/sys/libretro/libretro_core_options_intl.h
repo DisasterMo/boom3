@@ -4392,7 +4392,7 @@ struct retro_core_options_v2 options_sv = {
 /* RETRO_LANGUAGE_TR */
 
 #define DOOM_FRAMERATE_LABEL_TR "Kare hızı (Yeniden Başlatılmalı)"
-#define DOOM_FRAMERATE_INFO_0_TR NULL
+#define DOOM_FRAMERATE_INFO_0_TR "Kare hızını değiştirin. Yeniden başlatma gerektirir."
 #define OPTION_VAL_AUTO_TR "Otomatik"
 #define OPTION_VAL_50_TR NULL
 #define OPTION_VAL_60_TR NULL
@@ -4413,7 +4413,7 @@ struct retro_core_options_v2 options_sv = {
 #define OPTION_VAL_300_TR NULL
 #define OPTION_VAL_360_TR NULL
 #define DOOM_RESOLUTION_LABEL_TR "Dahili çözünürlük (Yeniden Başlatılmalı)"
-#define DOOM_RESOLUTION_INFO_0_TR NULL
+#define DOOM_RESOLUTION_INFO_0_TR "Çözünürlüğü seçin. Yeniden başlatma gerektirir."
 #define OPTION_VAL_480X272_TR NULL
 #define OPTION_VAL_640X368_TR NULL
 #define OPTION_VAL_720X408_TR NULL
@@ -4425,7 +4425,7 @@ struct retro_core_options_v2 options_sv = {
 #define DOOM_INVERT_Y_AXIS_LABEL_TR "Y Eksenini Tersine Çevir"
 #define DOOM_INVERT_Y_AXIS_INFO_0_TR "Sağ analog çubuğun Y eksenini ters çevirin."
 #define DOOM_FPS_LABEL_TR "FPS Göster"
-#define DOOM_FPS_INFO_0_TR NULL
+#define DOOM_FPS_INFO_0_TR "Ekranda kare hızını göster."
 
 struct retro_core_option_v2_category option_cats_tr[] = {
    { NULL, NULL, NULL },

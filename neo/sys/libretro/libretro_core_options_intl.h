@@ -1191,29 +1191,29 @@ struct retro_core_options_v2 options_de = {
 
 /* RETRO_LANGUAGE_EL */
 
-#define DOOM_FRAMERATE_LABEL_EL NULL
-#define DOOM_FRAMERATE_INFO_0_EL NULL
-#define OPTION_VAL_AUTO_EL NULL
-#define OPTION_VAL_50_EL NULL
-#define OPTION_VAL_60_EL NULL
-#define OPTION_VAL_72_EL NULL
-#define OPTION_VAL_75_EL NULL
-#define OPTION_VAL_90_EL NULL
-#define OPTION_VAL_100_EL NULL
-#define OPTION_VAL_119_EL NULL
-#define OPTION_VAL_120_EL NULL
-#define OPTION_VAL_144_EL NULL
-#define OPTION_VAL_155_EL NULL
-#define OPTION_VAL_160_EL NULL
-#define OPTION_VAL_165_EL NULL
-#define OPTION_VAL_180_EL NULL
-#define OPTION_VAL_200_EL NULL
-#define OPTION_VAL_240_EL NULL
-#define OPTION_VAL_244_EL NULL
-#define OPTION_VAL_300_EL NULL
-#define OPTION_VAL_360_EL NULL
-#define DOOM_RESOLUTION_LABEL_EL NULL
-#define DOOM_RESOLUTION_INFO_0_EL NULL
+#define DOOM_FRAMERATE_LABEL_EL "Ρυθμός καρέ (Απαιτείται Επανεκκίνηση)"
+#define DOOM_FRAMERATE_INFO_0_EL "Τροποποίηση ρυθμού των καρέ. Απαιτεί επανεκκίνηση."
+#define OPTION_VAL_AUTO_EL "Αυτόματο"
+#define OPTION_VAL_50_EL "50 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_60_EL "60 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_72_EL "72 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_75_EL "75 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_90_EL "90 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_100_EL "100 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_119_EL "119 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_120_EL "120 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_144_EL "144 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_155_EL "155 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_160_EL "160 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_165_EL "165 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_180_EL "180 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_200_EL "200 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_240_EL "240 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_244_EL "244 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_300_EL "300 καρέ ανά δευτερόλεπτο"
+#define OPTION_VAL_360_EL "360 καρέ ανά δευτερόλεπτο"
+#define DOOM_RESOLUTION_LABEL_EL "Εσωτερική ανάλυση (Απαιτείται Επανεκκίνηση)"
+#define DOOM_RESOLUTION_INFO_0_EL "Επιλογή ανάλυσης. Απαιτείται επανεκκίνηση."
 #define OPTION_VAL_480X272_EL NULL
 #define OPTION_VAL_640X368_EL NULL
 #define OPTION_VAL_720X408_EL NULL
@@ -1222,10 +1222,10 @@ struct retro_core_options_v2 options_de = {
 #define OPTION_VAL_1920X1080_EL NULL
 #define OPTION_VAL_2560X1440_EL NULL
 #define OPTION_VAL_3840X2160_EL NULL
-#define DOOM_INVERT_Y_AXIS_LABEL_EL NULL
-#define DOOM_INVERT_Y_AXIS_INFO_0_EL NULL
-#define DOOM_FPS_LABEL_EL NULL
-#define DOOM_FPS_INFO_0_EL NULL
+#define DOOM_INVERT_Y_AXIS_LABEL_EL "Αντιστροφή Άξονα Y"
+#define DOOM_INVERT_Y_AXIS_INFO_0_EL "Αντιστροφή άξονα Y του δεξιού αναλογικού μοχλού."
+#define DOOM_FPS_LABEL_EL "Εμφάνιση των καρέ ανά δευτερόλεπτο (FPS)"
+#define DOOM_FPS_INFO_0_EL "Εμφάνιση ρυθμού καρέ στην οθόνη."
 
 struct retro_core_option_v2_category option_cats_el[] = {
    { NULL, NULL, NULL },

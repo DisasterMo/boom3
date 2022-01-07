@@ -4296,7 +4296,7 @@ struct retro_core_options_v2 options_sr = {
 #define OPTION_VAL_3840X2160_SV NULL
 #define DOOM_INVERT_Y_AXIS_LABEL_SV NULL
 #define DOOM_INVERT_Y_AXIS_INFO_0_SV NULL
-#define DOOM_FPS_LABEL_SV NULL
+#define DOOM_FPS_LABEL_SV "Visa FPS"
 #define DOOM_FPS_INFO_0_SV NULL
 
 struct retro_core_option_v2_category option_cats_sv[] = {

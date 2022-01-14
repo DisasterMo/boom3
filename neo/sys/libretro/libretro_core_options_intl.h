@@ -3109,6 +3109,134 @@ struct retro_core_options_v2 options_nl = {
    option_defs_nl
 };
 
+/* RETRO_LANGUAGE_NO */
+
+#define DOOM_FRAMERATE_LABEL_NO NULL
+#define DOOM_FRAMERATE_INFO_0_NO NULL
+#define OPTION_VAL_AUTO_NO NULL
+#define OPTION_VAL_50_NO NULL
+#define OPTION_VAL_60_NO NULL
+#define OPTION_VAL_72_NO NULL
+#define OPTION_VAL_75_NO NULL
+#define OPTION_VAL_90_NO NULL
+#define OPTION_VAL_100_NO NULL
+#define OPTION_VAL_119_NO NULL
+#define OPTION_VAL_120_NO NULL
+#define OPTION_VAL_144_NO NULL
+#define OPTION_VAL_155_NO NULL
+#define OPTION_VAL_160_NO NULL
+#define OPTION_VAL_165_NO NULL
+#define OPTION_VAL_180_NO NULL
+#define OPTION_VAL_200_NO NULL
+#define OPTION_VAL_240_NO NULL
+#define OPTION_VAL_244_NO NULL
+#define OPTION_VAL_300_NO NULL
+#define OPTION_VAL_360_NO NULL
+#define DOOM_RESOLUTION_LABEL_NO NULL
+#define DOOM_RESOLUTION_INFO_0_NO NULL
+#define OPTION_VAL_480X272_NO NULL
+#define OPTION_VAL_640X368_NO NULL
+#define OPTION_VAL_720X408_NO NULL
+#define OPTION_VAL_960X544_NO NULL
+#define OPTION_VAL_1280X720_NO NULL
+#define OPTION_VAL_1920X1080_NO NULL
+#define OPTION_VAL_2560X1440_NO NULL
+#define OPTION_VAL_3840X2160_NO NULL
+#define DOOM_INVERT_Y_AXIS_LABEL_NO NULL
+#define DOOM_INVERT_Y_AXIS_INFO_0_NO NULL
+#define DOOM_FPS_LABEL_NO NULL
+#define DOOM_FPS_INFO_0_NO NULL
+
+struct retro_core_option_v2_category option_cats_no[] = {
+   { NULL, NULL, NULL },
+};
+struct retro_core_option_v2_definition option_defs_no[] = {
+	{
+      "doom_framerate",
+      DOOM_FRAMERATE_LABEL_NO,
+      NULL,
+      DOOM_FRAMERATE_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "auto",            OPTION_VAL_AUTO_NO},
+         { "50",              OPTION_VAL_50_NO},
+         { "60",              OPTION_VAL_60_NO},
+         { "72",              OPTION_VAL_72_NO},
+         { "75",              OPTION_VAL_75_NO},
+         { "90",              OPTION_VAL_90_NO},
+         { "100",              OPTION_VAL_100_NO},
+         { "119",              OPTION_VAL_119_NO},
+         { "120",              OPTION_VAL_120_NO},
+         { "144",              OPTION_VAL_144_NO},
+         { "155",              OPTION_VAL_155_NO},
+         { "160",              OPTION_VAL_160_NO},
+         { "165",              OPTION_VAL_165_NO},
+         { "180",              OPTION_VAL_180_NO},
+         { "200",              OPTION_VAL_200_NO},
+         { "240",              OPTION_VAL_240_NO},
+         { "244",              OPTION_VAL_244_NO},
+         { "300",              OPTION_VAL_300_NO},
+         { "360",              OPTION_VAL_360_NO},
+         { NULL, NULL },
+      },
+      "auto"
+   },
+   {
+      "doom_resolution",
+      DOOM_RESOLUTION_LABEL_NO,
+      NULL,
+      DOOM_RESOLUTION_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "480x272",   OPTION_VAL_480X272_NO },
+         { "640x368",   OPTION_VAL_640X368_NO },
+         { "720x408",   OPTION_VAL_720X408_NO },
+         { "960x544",   OPTION_VAL_960X544_NO },
+		 { "1280x720",   OPTION_VAL_1280X720_NO },
+		 { "1920x1080",   OPTION_VAL_1920X1080_NO },
+		 { "2560x1440",   OPTION_VAL_2560X1440_NO },
+		 { "3840x2160",   OPTION_VAL_3840X2160_NO },
+         { NULL, NULL },
+      },
+      "960x544"
+   },
+   {
+      "doom_invert_y_axis",
+      DOOM_INVERT_Y_AXIS_LABEL_NO,
+      NULL,
+      DOOM_INVERT_Y_AXIS_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled",  "Disabled" },
+         { "enabled",   "Enabled" },
+         { NULL, NULL },
+      },
+      "enabled"
+   },
+   {
+      "doom_fps",
+      DOOM_FPS_LABEL_NO,
+      NULL,
+      DOOM_FPS_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled",  "Disabled" },
+         { "enabled",   "Enabled" },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
+};
+struct retro_core_options_v2 options_no = {
+   option_cats_no,
+   option_defs_no
+};
+
 /* RETRO_LANGUAGE_OC */
 
 #define DOOM_FRAMERATE_LABEL_OC NULL

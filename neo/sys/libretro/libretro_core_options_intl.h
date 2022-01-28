@@ -4773,6 +4773,134 @@ struct retro_core_options_v2 options_uk = {
    option_defs_uk
 };
 
+/* RETRO_LANGUAGE_VAL */
+
+#define DOOM_FRAMERATE_LABEL_VAL NULL
+#define DOOM_FRAMERATE_INFO_0_VAL NULL
+#define OPTION_VAL_AUTO_VAL NULL
+#define OPTION_VAL_50_VAL NULL
+#define OPTION_VAL_60_VAL NULL
+#define OPTION_VAL_72_VAL NULL
+#define OPTION_VAL_75_VAL NULL
+#define OPTION_VAL_90_VAL NULL
+#define OPTION_VAL_100_VAL NULL
+#define OPTION_VAL_119_VAL NULL
+#define OPTION_VAL_120_VAL NULL
+#define OPTION_VAL_144_VAL NULL
+#define OPTION_VAL_155_VAL NULL
+#define OPTION_VAL_160_VAL NULL
+#define OPTION_VAL_165_VAL NULL
+#define OPTION_VAL_180_VAL NULL
+#define OPTION_VAL_200_VAL NULL
+#define OPTION_VAL_240_VAL NULL
+#define OPTION_VAL_244_VAL NULL
+#define OPTION_VAL_300_VAL NULL
+#define OPTION_VAL_360_VAL NULL
+#define DOOM_RESOLUTION_LABEL_VAL NULL
+#define DOOM_RESOLUTION_INFO_0_VAL NULL
+#define OPTION_VAL_480X272_VAL NULL
+#define OPTION_VAL_640X368_VAL NULL
+#define OPTION_VAL_720X408_VAL NULL
+#define OPTION_VAL_960X544_VAL NULL
+#define OPTION_VAL_1280X720_VAL NULL
+#define OPTION_VAL_1920X1080_VAL NULL
+#define OPTION_VAL_2560X1440_VAL NULL
+#define OPTION_VAL_3840X2160_VAL NULL
+#define DOOM_INVERT_Y_AXIS_LABEL_VAL NULL
+#define DOOM_INVERT_Y_AXIS_INFO_0_VAL NULL
+#define DOOM_FPS_LABEL_VAL NULL
+#define DOOM_FPS_INFO_0_VAL NULL
+
+struct retro_core_option_v2_category option_cats_val[] = {
+   { NULL, NULL, NULL },
+};
+struct retro_core_option_v2_definition option_defs_val[] = {
+	{
+      "doom_framerate",
+      DOOM_FRAMERATE_LABEL_VAL,
+      NULL,
+      DOOM_FRAMERATE_INFO_0_VAL,
+      NULL,
+      NULL,
+      {
+         { "auto",            OPTION_VAL_AUTO_VAL},
+         { "50",              OPTION_VAL_50_VAL},
+         { "60",              OPTION_VAL_60_VAL},
+         { "72",              OPTION_VAL_72_VAL},
+         { "75",              OPTION_VAL_75_VAL},
+         { "90",              OPTION_VAL_90_VAL},
+         { "100",              OPTION_VAL_100_VAL},
+         { "119",              OPTION_VAL_119_VAL},
+         { "120",              OPTION_VAL_120_VAL},
+         { "144",              OPTION_VAL_144_VAL},
+         { "155",              OPTION_VAL_155_VAL},
+         { "160",              OPTION_VAL_160_VAL},
+         { "165",              OPTION_VAL_165_VAL},
+         { "180",              OPTION_VAL_180_VAL},
+         { "200",              OPTION_VAL_200_VAL},
+         { "240",              OPTION_VAL_240_VAL},
+         { "244",              OPTION_VAL_244_VAL},
+         { "300",              OPTION_VAL_300_VAL},
+         { "360",              OPTION_VAL_360_VAL},
+         { NULL, NULL },
+      },
+      "auto"
+   },
+   {
+      "doom_resolution",
+      DOOM_RESOLUTION_LABEL_VAL,
+      NULL,
+      DOOM_RESOLUTION_INFO_0_VAL,
+      NULL,
+      NULL,
+      {
+         { "480x272",   OPTION_VAL_480X272_VAL },
+         { "640x368",   OPTION_VAL_640X368_VAL },
+         { "720x408",   OPTION_VAL_720X408_VAL },
+         { "960x544",   OPTION_VAL_960X544_VAL },
+		 { "1280x720",   OPTION_VAL_1280X720_VAL },
+		 { "1920x1080",   OPTION_VAL_1920X1080_VAL },
+		 { "2560x1440",   OPTION_VAL_2560X1440_VAL },
+		 { "3840x2160",   OPTION_VAL_3840X2160_VAL },
+         { NULL, NULL },
+      },
+      "960x544"
+   },
+   {
+      "doom_invert_y_axis",
+      DOOM_INVERT_Y_AXIS_LABEL_VAL,
+      NULL,
+      DOOM_INVERT_Y_AXIS_INFO_0_VAL,
+      NULL,
+      NULL,
+      {
+         { "disabled",  "Disabled" },
+         { "enabled",   "Enabled" },
+         { NULL, NULL },
+      },
+      "enabled"
+   },
+   {
+      "doom_fps",
+      DOOM_FPS_LABEL_VAL,
+      NULL,
+      DOOM_FPS_INFO_0_VAL,
+      NULL,
+      NULL,
+      {
+         { "disabled",  "Disabled" },
+         { "enabled",   "Enabled" },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
+};
+struct retro_core_options_v2 options_val = {
+   option_cats_val,
+   option_defs_val
+};
+
 /* RETRO_LANGUAGE_VN */
 
 #define DOOM_FRAMERATE_LABEL_VN NULL

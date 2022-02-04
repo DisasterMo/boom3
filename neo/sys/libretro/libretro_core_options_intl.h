@@ -138,8 +138,8 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -266,8 +266,8 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -394,8 +394,8 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -522,8 +522,8 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -650,8 +650,8 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -778,8 +778,8 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -906,8 +906,8 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1034,8 +1034,8 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1089,7 +1089,7 @@ struct retro_core_options_v2 options_da = {
 #define OPTION_VAL_480X272_DE "480 x 272"
 #define OPTION_VAL_640X368_DE "640 x 368"
 #define OPTION_VAL_720X408_DE "720 x 408"
-#define OPTION_VAL_960X544_DE "960 x 544"
+#define OPTION_VAL_960X544_DE NULL
 #define OPTION_VAL_1280X720_DE "1280 x 720"
 #define OPTION_VAL_1920X1080_DE "1920 x 1080"
 #define OPTION_VAL_2560X1440_DE "2560 x 1440"
@@ -1162,8 +1162,8 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1192,7 +1192,7 @@ struct retro_core_options_v2 options_de = {
 /* RETRO_LANGUAGE_EL */
 
 #define DOOM_FRAMERATE_LABEL_EL "Ρυθμός καρέ (Απαιτείται Επανεκκίνηση)"
-#define DOOM_FRAMERATE_INFO_0_EL "Τροποποίηση ρυθμού των καρέ. Απαιτεί επανεκκίνηση."
+#define DOOM_FRAMERATE_INFO_0_EL NULL
 #define OPTION_VAL_AUTO_EL "Αυτόματο"
 #define OPTION_VAL_50_EL "50 καρέ ανά δευτερόλεπτο"
 #define OPTION_VAL_60_EL "60 καρέ ανά δευτερόλεπτο"
@@ -1213,7 +1213,7 @@ struct retro_core_options_v2 options_de = {
 #define OPTION_VAL_300_EL "300 καρέ ανά δευτερόλεπτο"
 #define OPTION_VAL_360_EL "360 καρέ ανά δευτερόλεπτο"
 #define DOOM_RESOLUTION_LABEL_EL "Εσωτερική ανάλυση (Απαιτείται Επανεκκίνηση)"
-#define DOOM_RESOLUTION_INFO_0_EL "Επιλογή ανάλυσης. Απαιτείται επανεκκίνηση."
+#define DOOM_RESOLUTION_INFO_0_EL NULL
 #define OPTION_VAL_480X272_EL NULL
 #define OPTION_VAL_640X368_EL NULL
 #define OPTION_VAL_720X408_EL NULL
@@ -1290,8 +1290,8 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1418,8 +1418,8 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1448,7 +1448,7 @@ struct retro_core_options_v2 options_eo = {
 /* RETRO_LANGUAGE_ES */
 
 #define DOOM_FRAMERATE_LABEL_ES "Velocidad de FPS (es necesario reiniciar)"
-#define DOOM_FRAMERATE_INFO_0_ES "Modifica la velocidad máxima de fotogramas por segundo."
+#define DOOM_FRAMERATE_INFO_0_ES "Selecciona la velocidad de fotogramas deseada."
 #define OPTION_VAL_AUTO_ES "Selección automática"
 #define OPTION_VAL_50_ES "50 FPS"
 #define OPTION_VAL_60_ES "60 FPS"
@@ -1469,11 +1469,11 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_300_ES "300 FPS"
 #define OPTION_VAL_360_ES "360 FPS"
 #define DOOM_RESOLUTION_LABEL_ES "Resolución interna (es necesario reiniciar)"
-#define DOOM_RESOLUTION_INFO_0_ES "Cambia la resolución."
+#define DOOM_RESOLUTION_INFO_0_ES "Selecciona la resolución de renderizado."
 #define OPTION_VAL_480X272_ES "480 × 272"
 #define OPTION_VAL_640X368_ES "640 × 368"
 #define OPTION_VAL_720X408_ES "720 × 408"
-#define OPTION_VAL_960X544_ES "960 × 544"
+#define OPTION_VAL_960X544_ES "960x544 (por defecto)"
 #define OPTION_VAL_1280X720_ES "1280 × 720"
 #define OPTION_VAL_1920X1080_ES "1920 × 1080"
 #define OPTION_VAL_2560X1440_ES "2560 × 1440"
@@ -1546,8 +1546,8 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1674,8 +1674,8 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1729,7 +1729,7 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_480X272_FI "480 x 272"
 #define OPTION_VAL_640X368_FI "640 x 368"
 #define OPTION_VAL_720X408_FI "720 x 408"
-#define OPTION_VAL_960X544_FI "960 x 544"
+#define OPTION_VAL_960X544_FI NULL
 #define OPTION_VAL_1280X720_FI "1280 x 720"
 #define OPTION_VAL_1920X1080_FI "1920 x 1080"
 #define OPTION_VAL_2560X1440_FI "2560 x 1440"
@@ -1802,8 +1802,8 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -1832,7 +1832,7 @@ struct retro_core_options_v2 options_fi = {
 /* RETRO_LANGUAGE_FR */
 
 #define DOOM_FRAMERATE_LABEL_FR "Fréquence d'images (Redémarrage requis)"
-#define DOOM_FRAMERATE_INFO_0_FR "Modifier la fréquence d'images. Nécessite un redémarrage."
+#define DOOM_FRAMERATE_INFO_0_FR "Choisissez la fréquence d'images souhaitée."
 #define OPTION_VAL_AUTO_FR NULL
 #define OPTION_VAL_50_FR "50i/s"
 #define OPTION_VAL_60_FR "60i/s"
@@ -1853,11 +1853,11 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_300_FR "300i/s"
 #define OPTION_VAL_360_FR "360i/s"
 #define DOOM_RESOLUTION_LABEL_FR "Résolution interne (Redémarrage requis)"
-#define DOOM_RESOLUTION_INFO_0_FR "Sélectionner la résolution. Nécessite un redémarrage."
+#define DOOM_RESOLUTION_INFO_0_FR "Choisissez la résolution à afficher."
 #define OPTION_VAL_480X272_FR NULL
 #define OPTION_VAL_640X368_FR NULL
 #define OPTION_VAL_720X408_FR NULL
-#define OPTION_VAL_960X544_FR NULL
+#define OPTION_VAL_960X544_FR "960x544 (par défaut)"
 #define OPTION_VAL_1280X720_FR NULL
 #define OPTION_VAL_1920X1080_FR NULL
 #define OPTION_VAL_2560X1440_FR NULL
@@ -1930,8 +1930,8 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2058,8 +2058,8 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2186,8 +2186,8 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2314,8 +2314,8 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2442,8 +2442,8 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2472,7 +2472,7 @@ struct retro_core_options_v2 options_id = {
 /* RETRO_LANGUAGE_IT */
 
 #define DOOM_FRAMERATE_LABEL_IT "Framerate (riavvio)"
-#define DOOM_FRAMERATE_INFO_0_IT "Modifica il frame rate. Richiede un riavvio."
+#define DOOM_FRAMERATE_INFO_0_IT "Scegli il frame rate desiderato."
 #define OPTION_VAL_AUTO_IT NULL
 #define OPTION_VAL_50_IT NULL
 #define OPTION_VAL_60_IT NULL
@@ -2493,11 +2493,11 @@ struct retro_core_options_v2 options_id = {
 #define OPTION_VAL_300_IT NULL
 #define OPTION_VAL_360_IT NULL
 #define DOOM_RESOLUTION_LABEL_IT "Risoluzione interna (riavvio)"
-#define DOOM_RESOLUTION_INFO_0_IT "Scegliere la risoluzione. Richiede un riavvio."
+#define DOOM_RESOLUTION_INFO_0_IT "Scegli la risoluzione in cui renderizzare."
 #define OPTION_VAL_480X272_IT NULL
 #define OPTION_VAL_640X368_IT NULL
 #define OPTION_VAL_720X408_IT NULL
-#define OPTION_VAL_960X544_IT NULL
+#define OPTION_VAL_960X544_IT "960x544 (Predefinito)"
 #define OPTION_VAL_1280X720_IT NULL
 #define OPTION_VAL_1920X1080_IT NULL
 #define OPTION_VAL_2560X1440_IT NULL
@@ -2570,8 +2570,8 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2698,8 +2698,8 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2728,7 +2728,7 @@ struct retro_core_options_v2 options_ja = {
 /* RETRO_LANGUAGE_KO */
 
 #define DOOM_FRAMERATE_LABEL_KO "프레임 레이트 (재시작 필요)"
-#define DOOM_FRAMERATE_INFO_0_KO "프레임 레이트를 변경합니다. 재시작이 필요합니다."
+#define DOOM_FRAMERATE_INFO_0_KO "원하는 프레임 레이트를 선택합니다."
 #define OPTION_VAL_AUTO_KO "자동"
 #define OPTION_VAL_50_KO NULL
 #define OPTION_VAL_60_KO NULL
@@ -2749,11 +2749,11 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_300_KO NULL
 #define OPTION_VAL_360_KO NULL
 #define DOOM_RESOLUTION_LABEL_KO "내부 해상도 (재시작 필요)"
-#define DOOM_RESOLUTION_INFO_0_KO "해상도를 선택합니다. 재시작이 필요합니다."
+#define DOOM_RESOLUTION_INFO_0_KO "원하는 렌더링할 해상도를 선택합니다."
 #define OPTION_VAL_480X272_KO NULL
 #define OPTION_VAL_640X368_KO NULL
 #define OPTION_VAL_720X408_KO NULL
-#define OPTION_VAL_960X544_KO NULL
+#define OPTION_VAL_960X544_KO "960x544 (기본)"
 #define OPTION_VAL_1280X720_KO NULL
 #define OPTION_VAL_1920X1080_KO NULL
 #define OPTION_VAL_2560X1440_KO NULL
@@ -2826,8 +2826,8 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -2954,8 +2954,8 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3082,8 +3082,8 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3210,8 +3210,8 @@ struct retro_core_option_v2_definition option_defs_no[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3338,8 +3338,8 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3389,11 +3389,11 @@ struct retro_core_options_v2 options_oc = {
 #define OPTION_VAL_300_PL NULL
 #define OPTION_VAL_360_PL NULL
 #define DOOM_RESOLUTION_LABEL_PL NULL
-#define DOOM_RESOLUTION_INFO_0_PL "Wybierz rozdzielczość. Wymaga ponownego uruchomienia."
+#define DOOM_RESOLUTION_INFO_0_PL "Wybierz rozdzielczość do renderowania."
 #define OPTION_VAL_480X272_PL NULL
 #define OPTION_VAL_640X368_PL NULL
 #define OPTION_VAL_720X408_PL NULL
-#define OPTION_VAL_960X544_PL NULL
+#define OPTION_VAL_960X544_PL "960x544 (domyślnie)"
 #define OPTION_VAL_1280X720_PL NULL
 #define OPTION_VAL_1920X1080_PL NULL
 #define OPTION_VAL_2560X1440_PL NULL
@@ -3466,8 +3466,8 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3496,7 +3496,7 @@ struct retro_core_options_v2 options_pl = {
 /* RETRO_LANGUAGE_PT_BR */
 
 #define DOOM_FRAMERATE_LABEL_PT_BR "Tipo de quadros (requer reinício)"
-#define DOOM_FRAMERATE_INFO_0_PT_BR "Altera a taxa de quadros. (requer reinício)"
+#define DOOM_FRAMERATE_INFO_0_PT_BR "Define a taxa de quadros pretendida."
 #define OPTION_VAL_AUTO_PT_BR "Automática"
 #define OPTION_VAL_50_PT_BR NULL
 #define OPTION_VAL_60_PT_BR NULL
@@ -3517,11 +3517,11 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_300_PT_BR NULL
 #define OPTION_VAL_360_PT_BR NULL
 #define DOOM_RESOLUTION_LABEL_PT_BR "Resolução interna (requer reinício)"
-#define DOOM_RESOLUTION_INFO_0_PT_BR "Escolha a resolução. (requer reinício)"
+#define DOOM_RESOLUTION_INFO_0_PT_BR "Define a resolução a ser renderizada."
 #define OPTION_VAL_480X272_PT_BR NULL
 #define OPTION_VAL_640X368_PT_BR NULL
 #define OPTION_VAL_720X408_PT_BR NULL
-#define OPTION_VAL_960X544_PT_BR NULL
+#define OPTION_VAL_960X544_PT_BR "960x544 (padrão)"
 #define OPTION_VAL_1280X720_PT_BR NULL
 #define OPTION_VAL_1920X1080_PT_BR NULL
 #define OPTION_VAL_2560X1440_PT_BR NULL
@@ -3594,8 +3594,8 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3722,8 +3722,8 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3850,8 +3850,8 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -3880,7 +3880,7 @@ struct retro_core_options_v2 options_ro = {
 /* RETRO_LANGUAGE_RU */
 
 #define DOOM_FRAMERATE_LABEL_RU "Частота кадров (требуется перезапуск)"
-#define DOOM_FRAMERATE_INFO_0_RU "Настройка частоты кадров. Требуется перезапуск."
+#define DOOM_FRAMERATE_INFO_0_RU "Выбор желаемой частоты кадров."
 #define OPTION_VAL_AUTO_RU "Авто"
 #define OPTION_VAL_50_RU "50 кадр/c"
 #define OPTION_VAL_60_RU "60 кадр/c"
@@ -3901,11 +3901,11 @@ struct retro_core_options_v2 options_ro = {
 #define OPTION_VAL_300_RU "300 кадр/c"
 #define OPTION_VAL_360_RU "360 кадр/c"
 #define DOOM_RESOLUTION_LABEL_RU "Внутреннее разрешение (требуется перезапуск)"
-#define DOOM_RESOLUTION_INFO_0_RU "Выбор разрешения. Требуется перезапуск."
+#define DOOM_RESOLUTION_INFO_0_RU "Выбор разрешения рендеринга."
 #define OPTION_VAL_480X272_RU NULL
 #define OPTION_VAL_640X368_RU NULL
 #define OPTION_VAL_720X408_RU NULL
-#define OPTION_VAL_960X544_RU NULL
+#define OPTION_VAL_960X544_RU "960x544 (по умолчанию)"
 #define OPTION_VAL_1280X720_RU NULL
 #define OPTION_VAL_1920X1080_RU NULL
 #define OPTION_VAL_2560X1440_RU NULL
@@ -3978,8 +3978,8 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -4106,8 +4106,8 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -4234,8 +4234,8 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -4362,8 +4362,8 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -4490,8 +4490,8 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -4520,7 +4520,7 @@ struct retro_core_options_v2 options_sv = {
 /* RETRO_LANGUAGE_TR */
 
 #define DOOM_FRAMERATE_LABEL_TR "Kare hızı (Yeniden Başlatılmalı)"
-#define DOOM_FRAMERATE_INFO_0_TR "Kare hızını değiştirin. Yeniden başlatma gerektirir."
+#define DOOM_FRAMERATE_INFO_0_TR "İstediğiniz kare hızını seçin."
 #define OPTION_VAL_AUTO_TR "Otomatik"
 #define OPTION_VAL_50_TR NULL
 #define OPTION_VAL_60_TR NULL
@@ -4541,11 +4541,11 @@ struct retro_core_options_v2 options_sv = {
 #define OPTION_VAL_300_TR NULL
 #define OPTION_VAL_360_TR NULL
 #define DOOM_RESOLUTION_LABEL_TR "Dahili çözünürlük (Yeniden Başlatılmalı)"
-#define DOOM_RESOLUTION_INFO_0_TR "Çözünürlüğü seçin. Yeniden başlatma gerektirir."
+#define DOOM_RESOLUTION_INFO_0_TR "Oluşturulacak çözünürlüğü seçin."
 #define OPTION_VAL_480X272_TR NULL
 #define OPTION_VAL_640X368_TR NULL
 #define OPTION_VAL_720X408_TR NULL
-#define OPTION_VAL_960X544_TR NULL
+#define OPTION_VAL_960X544_TR "960x544 (Varsayılan)"
 #define OPTION_VAL_1280X720_TR NULL
 #define OPTION_VAL_1920X1080_TR NULL
 #define OPTION_VAL_2560X1440_TR NULL
@@ -4618,8 +4618,8 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -4746,8 +4746,8 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -4776,7 +4776,7 @@ struct retro_core_options_v2 options_uk = {
 /* RETRO_LANGUAGE_VAL */
 
 #define DOOM_FRAMERATE_LABEL_VAL NULL
-#define DOOM_FRAMERATE_INFO_0_VAL NULL
+#define DOOM_FRAMERATE_INFO_0_VAL "Escull els fotogrames per segon desitjats."
 #define OPTION_VAL_AUTO_VAL NULL
 #define OPTION_VAL_50_VAL NULL
 #define OPTION_VAL_60_VAL NULL
@@ -4797,11 +4797,11 @@ struct retro_core_options_v2 options_uk = {
 #define OPTION_VAL_300_VAL NULL
 #define OPTION_VAL_360_VAL NULL
 #define DOOM_RESOLUTION_LABEL_VAL NULL
-#define DOOM_RESOLUTION_INFO_0_VAL NULL
+#define DOOM_RESOLUTION_INFO_0_VAL "Escull la resolució que vols renderitzar."
 #define OPTION_VAL_480X272_VAL NULL
 #define OPTION_VAL_640X368_VAL NULL
 #define OPTION_VAL_720X408_VAL NULL
-#define OPTION_VAL_960X544_VAL NULL
+#define OPTION_VAL_960X544_VAL "960x544 (predeterminada)"
 #define OPTION_VAL_1280X720_VAL NULL
 #define OPTION_VAL_1920X1080_VAL NULL
 #define OPTION_VAL_2560X1440_VAL NULL
@@ -4874,8 +4874,8 @@ struct retro_core_option_v2_definition option_defs_val[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
@@ -5002,8 +5002,8 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       NULL,
       NULL,
       {
-         { "disabled",  "Disabled" },
          { "enabled",   "Enabled" },
+         { "disabled",  "Disabled" },
          { NULL, NULL },
       },
       "enabled"
